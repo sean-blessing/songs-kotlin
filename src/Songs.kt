@@ -16,4 +16,5 @@ fun main(args: Array<String>) {
     songTwo.play()
     songTwo.stop()
     songThree.play()
+    println("song one title = ${songOne.title}, artist = ${songOne.artist}")
 }
